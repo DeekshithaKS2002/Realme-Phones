@@ -189,21 +189,50 @@ textarea {
 }
 
 /* FAQ Section */
-.faq {
-  padding: 100px 0;
+faq {
+    padding: 100px 0;
+    background-color: #fff;
+    text-align: center;
 }
 
-.accordion-heading {
-  font-size: 20px;
-  margin-bottom: 10px;
-  cursor: pointer;
+.faq h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.faq .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.accordion-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.accordion {
+    width: 400px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.accordion h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.accordion p {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .accordion-content {
-  display: none;
-  margin-bottom: 20px;
+    display: none;
 }
 
-.accordion.active .accordion-content {
-  display: block;
-}s
+.active .accordion-content {
+    display: block;
+}
